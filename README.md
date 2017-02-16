@@ -16,7 +16,9 @@ https://github.com/friendlyarm/matrix/blob/master/lib/gpio.c
 (default as Nanopi 2 version gpio pins)
 https://github.com/friendlyarm/matrix-python/blob/master/Matrix.GPIO/gpio.c
 
-change the gpio.c pin to your current nanopi corresponding gpio pin..
+change the matrix-python/Matrix.GPIO/gpio.c pin to your current nanopi corresponding gpio pin..
+then install your version of Matrix.GPIO
+
 ***
 
 ==============
