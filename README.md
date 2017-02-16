@@ -40,6 +40,9 @@ This repository includes a couple of examples showing how to read, write, and du
 You can check http://nanopi.io/nanopi-m1.html for reference for Nanopi m1.
 If you need other Pi GPIO refernce for FramilyArm site youself.
 
+## You can reference how to connect to RFID RC522 the image in
+http://www.theengineeringprojects.com/2015/08/interfacing-rfid-rc522-arduino.html
+
 | Name | Pin # | Pin name   |
 |------|-------|------------|
 | SDA  | 24    | SPI0_CS/GPIOC3    |
