@@ -1,6 +1,6 @@
 
 ***
-###Note : What is really do just simple change the import file
+###Note : What I really did is just simple change the import file
 import RPi.GPIO as GPIO 
 to
 import Matrix.GPIO as GPIO
