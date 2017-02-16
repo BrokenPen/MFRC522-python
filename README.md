@@ -1,7 +1,22 @@
+Note : What is really do just simple change the import file
+import RPi.GPIO as GPIO 
+import Matrix.GPIO as GPIO
+==============
+Nanopi M1 Matrix-python(edit pin for nanopi m1)
+https://github.com/friendlyarm/matrix-python/tree/master/Matrix.GPIO
+
+If you are using other version nanopi, you can reference to
+https://github.com/friendlyarm/matrix/blob/master/lib/gpio.c
+
+#default as Nanopi 2 version GPIO
+https://github.com/friendlyarm/matrix-python/blob/master/Matrix.GPIO/gpio.c
+
+change the gpio.c pin to your current nanopi corresponding gpio pin..
+==============
 MFRC522-python
 ==============
 
-A small class to interface with the NFC reader Module MFRC522 on the Raspberry Pi.
+A small class to interface with the NFC reader Module MFRC522 on the Nanopi .
 
 This is a Python port of the example code for the NFC module MF522-AN.
 
@@ -13,18 +28,19 @@ https://github.com/lthiery/SPI-Py
 This repository includes a couple of examples showing how to read, write, and dump data from a chip. They are thoroughly commented, and should be easy to understand.
 
 ## Pins
-You can use [this](http://i.imgur.com/y7Fnvhq.png) image for reference.
+You can check http://nanopi.io/nanopi-m1.html image for reference for Nanopi m1.
+If you need other Pi GPIO refernce for FramilyArm site youself.
 
 | Name | Pin # | Pin name   |
 |------|-------|------------|
-| SDA  | 24    | GPIO8      |
-| SCK  | 23    | GPIO11     |
-| MOSI | 19    | GPIO10     |
-| MISO | 21    | GPIO9      |
-| IRQ  | None  | None       |
-| GND  | Any   | Any Ground |
-| RST  | 22    | GPIO25     |
-| 3.3V | 1     | 3V3        |
+| SDA  | 24    | SPI0_CS/GPIOC3    |
+| SCK  | 23    | SPI0_CLK/GPIOC29  |
+| MOSI | 19    | SPI0_MOSI/GPIOC0  |
+| MISO | 21    | SIP0_MISO/GPIOC1  |
+| IRQ  | None  | None              |
+| GND  | Any   | Any Ground        |
+| RST  | 22    | UART2_RX/GPIOA1   |
+| 3.3V | 1     | SYS_3.3V          |
 
 ##Usage
 Import the class by importing MFRC522 in the top of your script. For more info see the examples.
