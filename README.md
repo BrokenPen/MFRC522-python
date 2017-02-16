@@ -1,17 +1,24 @@
-Note : What is really do just simple change the import file
+
+***
+###Note : What is really do just simple change the import file
 import RPi.GPIO as GPIO 
+to
 import Matrix.GPIO as GPIO
-==============
+
+***
+
 Nanopi M1 Matrix-python(edit pin for nanopi m1)
 https://github.com/friendlyarm/matrix-python/tree/master/Matrix.GPIO
 
 If you are using other version nanopi, you can reference to
 https://github.com/friendlyarm/matrix/blob/master/lib/gpio.c
 
-#default as Nanopi 2 version GPIO
+(default as Nanopi 2 version gpio pins)
 https://github.com/friendlyarm/matrix-python/blob/master/Matrix.GPIO/gpio.c
 
 change the gpio.c pin to your current nanopi corresponding gpio pin..
+***
+
 ==============
 MFRC522-python
 ==============
@@ -28,7 +35,7 @@ https://github.com/lthiery/SPI-Py
 This repository includes a couple of examples showing how to read, write, and dump data from a chip. They are thoroughly commented, and should be easy to understand.
 
 ## Pins
-You can check http://nanopi.io/nanopi-m1.html image for reference for Nanopi m1.
+You can check http://nanopi.io/nanopi-m1.html for reference for Nanopi m1.
 If you need other Pi GPIO refernce for FramilyArm site youself.
 
 | Name | Pin # | Pin name   |
