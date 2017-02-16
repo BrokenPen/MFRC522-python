@@ -33,6 +33,12 @@ This is a Python port of the example code for the NFC module MF522-AN.
 This code requires you to have SPI-Py installed from the following repository:
 https://github.com/lthiery/SPI-Py
 
+The libirary for Nanopi GPIO access (pins for Nanopi 2)
+https://github.com/friendlyarm/matrix-python/tree/master/Matrix.GPIO
+
+Matrix-python(edit pin for nanopi m1)
+https://github.com/friendlyarm/matrix-python/tree/master/Matrix.GPIO
+
 ##Examples
 This repository includes a couple of examples showing how to read, write, and dump data from a chip. They are thoroughly commented, and should be easy to understand.
 
